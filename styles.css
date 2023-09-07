@@ -9,6 +9,20 @@
 body {
     font-family: Arial, sans-serif;
 }
+.title {
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.subtitle {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.avatar {
+    margin: 2rem 0;
+    max-width: 100%;
+    width: 210px;
+}
 
 /* Estilos nav bar */
 .navbar-container {
@@ -43,4 +57,36 @@ body {
     justify-content: flex-end;
     display: flex;
     margin-right: 20px;
+}
+
+.developer {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.developer-head {
+    max-width: 1152px;
+    padding: 3rem;
+    margin: 0 auto;
+    display: block;
+}
+.developer-foot {
+    
+}
+.dev-img {
+    max-width: 860px;
+}
+.section-medium {
+    background-color: #6E07F3;
+}
+
+.container-medium {
+    display: block;
+    margin: 0 auto;
+    margin-top: 6rem;
+    text-align: center;
+    width: 60%;
 }
