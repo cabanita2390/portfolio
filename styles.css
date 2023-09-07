@@ -22,12 +22,17 @@ body {
 }
 
 .navbar-logo {
-    background-color: green;
+    /* background-color: green; */
     height: auto;
     padding: 4px;
     margin-left: 20px;
     /* justify-content: center;
     display: flex; */
+}
+
+.logo {
+    width: 24px;
+    background-color: rgb(236, 12, 162);
 }
 
 .navbar-menu {
