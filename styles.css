@@ -81,12 +81,29 @@ body {
 }
 .section-medium {
     background-color: #6E07F3;
+    padding: 48px;
+    margin-top: -6px;
 }
 
 .container-medium {
     display: block;
     margin: 0 auto;
-    margin-top: 6rem;
     text-align: center;
     width: 60%;
+}
+
+.container-medium-p {
+    padding-top: 4rem;
+}
+
+.container-medium-p h1 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.container-medium-p h2 {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 16px;
+    line-height: 1.5;
 }
