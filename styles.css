@@ -83,6 +83,7 @@ body {
     background-color: #6E07F3;
     padding: 48px;
     margin-top: -6px;
+    padding-bottom: 256px;
 }
 
 .container-medium {
@@ -106,4 +107,17 @@ body {
     font-weight: 100;
     margin-bottom: 16px;
     line-height: 1.5;
+}
+
+.section-3 {
+    background-color: green;
+    padding: 36px;
+}
+
+.container-section-3 {
+    background-color: aquamarine;
+    border-radius: 8px;
+}
+.box {
+    display: flex;
 }
