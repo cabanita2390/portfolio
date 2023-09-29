@@ -109,7 +109,7 @@ body {
 }
 
 .section-3 {
-    background-color: green;
+    /* background-color: green; */
     padding: 25px;
 }
 
@@ -119,6 +119,8 @@ body {
     margin-top: -144px;
     /* padding: 30px 28px; */
     background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 
+    0 0 0 1px #E6ECF8;
 }
 .box {
     display: flex;
@@ -126,7 +128,7 @@ body {
 }
 .column {
     /* margin: 16px; */
-    padding: 10px;
+    padding: 60px 35px;
     text-align: center;
     border-right: 1px solid #e6ecf8;
 }
@@ -160,7 +162,7 @@ body {
 }
 .column p {
     font-size: 18px;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .column .list-title {
@@ -168,4 +170,8 @@ body {
     margin-top: 50px;
     margin-bottom: 8px;
     /* margin-bottom: 8px !important; Mueve !important aquí */
+}
+
+ul li {
+    list-style: none;
 }
