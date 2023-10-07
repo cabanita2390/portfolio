@@ -128,16 +128,14 @@ body {
 }
 .column {
     /* margin: 16px; */
-    padding: 60px 35px;
+    padding: 60px 35px 40px 35px;
     text-align: center;
     border-right: 1px solid #e6ecf8;
 }
 .column:last-child {
     border-right: none;
 }
-.column > * {
-    margin: 10px; /* Puedes ajustar el valor según tus necesidades */
-  }
+
 .icono-container {
     display: flex;
     justify-content: center;
@@ -145,16 +143,18 @@ body {
 
 .icono1 {
     font-size: 1.5em;
-    color: red;
+    color: black;
     width: 1.25em;
 }
 .icono2 {
     font-size: 1.5em;
-    color: rgb(34, 0, 255);
+    color: black;
+    width: 1.25em;
 }
 .icono3 {
     font-size: 1.5em;
-    color: rgb(34, 0, 255);
+    color: black;
+    width: 1.25em;
 }
 .column h1 {
     margin-top: 1em;
@@ -171,7 +171,9 @@ body {
     margin-bottom: 8px;
     /* margin-bottom: 8px !important; Mueve !important aquí */
 }
-
+ul {
+    margin: 0;
+}
 ul li {
     list-style: none;
 }
