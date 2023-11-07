@@ -41,11 +41,14 @@ body {
     color: rgb(184, 36, 36);
 }
 
+svg {
+    width: 80px;
+    color: #1a8cff;
+    fill: #5BE9B9;
+}
 
-.svg {
-    width: 64px;
-    padding: 4px;
-    fill: red;
+path {
+    fill: #6E07F3;
 }
 
 .abrir-menu, .cerrar-menu {
