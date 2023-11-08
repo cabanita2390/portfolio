@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.azul   {
+    text-align: center;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.rojo {
+    text-align: center;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
