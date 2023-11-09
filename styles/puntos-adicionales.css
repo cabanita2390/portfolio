@@ -61,6 +61,8 @@
 }
 
 
+/* punto6 */
+
 .punto6 {
     width: 100%;
     display: flex;
@@ -82,3 +84,50 @@
     color: green;
     font-weight: bold;
 }
+
+
+/* punto 7 */
+
+.punto-7 {
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion {
+    width: 80%;
+    background-color: pink;
+    display: flex;
+  }
+  
+  /* Estilos para los enlaces en la barra de navegación */
+  .enlace {
+    margin: 4px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.barra-navegacion a {
+    text-decoration: none;
+    color: white;
+}
+.enlace:hover {
+    background-color: blue;
+}
+
+/* punto 8 */
+.punto-8 {
+    display: flex;
+    justify-content: center;
+}
+table {
+    background-color: yellow;
+    border: 2px dotted gray;
+    width: 70%;
+  }
+  th {
+    color: red;
+    font-style: italic;
+  }
+
+table td {
+    border: 2px dotted gray
+  }
