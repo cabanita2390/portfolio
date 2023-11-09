@@ -41,14 +41,17 @@ body {
     color: rgb(184, 36, 36);
 }
 
+
 svg {
     width: 80px;
-    color: #1a8cff;
-    fill: #5BE9B9;
+    background: none;
 }
 
-path {
-    fill: #6E07F3;
+.logo-header {
+    fill: black;
+}
+.logo-footer {
+    fill: gray;
 }
 
 .abrir-menu, .cerrar-menu {
