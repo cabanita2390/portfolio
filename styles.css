@@ -48,9 +48,11 @@ svg {
 }
 
 .logo-header {
-    fill: black;
+    fill: #6E07F3;
 }
 .logo-footer {
+    background: none;
+    background-color: black;
     fill: gray;
 }
 
@@ -474,7 +476,7 @@ a {
 /* Footer */
 
 .footer-container {
-    height: 500px;
+    /* height: 500px; */
     background-color: #6E07F3;
     padding: 24px;
 }
@@ -486,6 +488,32 @@ a {
     background-color: #fff;
     max-width: fit-content;
 }
-.a-logo img {
-    margin: 0 auto;
+
+.subtitle-footer {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+.RRSS-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+.fa-brands {
+    margin: 8px;
+}
+
+.copyright {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 48px;
+    margin-bottom: 24px;
 }
