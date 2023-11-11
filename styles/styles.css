@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-logo {
-    padding: 20px;
+    padding-left: 20px;
     margin-left: 28px;
     display: flex;
     justify-content: center;
@@ -42,18 +42,9 @@ body {
 }
 
 
-svg {
-    width: 80px;
-    background: none;
-}
-
 .logo-header {
-    fill: #6E07F3;
-}
-.logo-footer {
-    background: none;
-    background-color: black;
-    fill: gray;
+    width: 9rem;
+    padding: 14px;
 }
 
 .abrir-menu, .cerrar-menu {
@@ -485,8 +476,10 @@ a {
 }
 .footer-logo .a-logo {
     margin: 0 auto;
-    background-color: #fff;
     max-width: fit-content;
+}
+.logo-footer{
+    width: 10rem;
 }
 
 .subtitle-footer {
