@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: green; /* Color del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    position: relative;
+    z-index: 1; /* Asegura que el ícono esté encima del círculo */
+    font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
+    color: white; /* Color del ícono */
+}

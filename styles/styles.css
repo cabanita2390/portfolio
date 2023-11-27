@@ -253,13 +253,13 @@ body {
     0 0 0 1px #E6ECF8;
 }
 .box {
-    display: flex;
-    justify-content: center;
-    height: 800px; /* Modificar altura al cuadrar el texto interno */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto; /* Modificar altura al cuadrar el texto interno */
 }
 .column {
     /* margin: 16px; */
-    padding: 60px 35px 40px 35px;
+    padding: 60px 40px 130px 40px;
     text-align: center;
     border-right: 1px solid #e6ecf8;
 }
@@ -272,28 +272,43 @@ body {
     justify-content: center;
 }
 
-.icono1 {
-    font-size: 1.5em;
-    color: black;
-    width: 1.25em;
+.icono {
+    position: relative;
+    z-index: 1; /* Asegura que el ícono esté encima del círculo */
+    font-size: 30px; /* Ajusta el tamaño del ícono según sea necesario */
+    color: rgb(5, 5, 5);
 }
-.icono2 {
-    font-size: 1.5em;
-    color: black;
-    width: 1.25em;
-}
+
 .icono3 {
     font-size: 1.5em;
     color: black;
     width: 1.25em;
 }
+.circle-container {
+    position: relative;
+    top: 50px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(127, 248, 187); /* Color del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loading {
+    
+}
 .column h1 {
-    margin-top: 1em;
+    margin-top: 5em;
     margin-bottom: 1.5em;
 }
 .column p {
-    font-size: 18px;
-    margin-bottom: 2em;
+    font-size: 20px;
+    margin-bottom: 2.5em;
 }
 
 .column .list-title {
@@ -307,6 +322,7 @@ ul {
 }
 ul li {
     list-style: none;
+    font-size: 20px;
 }
 
 /* SECTION 4 */
@@ -528,3 +544,5 @@ a {
     padding-bottom: 48px;
     margin-bottom: 24px;
 }
+
+
